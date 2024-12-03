@@ -1,0 +1,33 @@
+apiVersion: v1
+entries:
+  ingress-nginx:
+  - annotations:
+      artifacthub.io/changes: |
+        - Update Ingress-Nginx version controller-v1.12.0-beta.0
+      artifacthub.io/prerelease: "true"
+    apiVersion: v2
+    appVersion: 1.12.0-beta.0
+    created: "2024-12-03T12:03:14.131604422Z"
+    description: Ingress controller for Kubernetes using NGINX as a reverse proxy
+      and load balancer
+    digest: 427741b9c8ba956e177f9ae77609882e6fdd8e7b62fb68a689ea9428f82c5103
+    home: https://github.com/kubernetes/ingress-nginx
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/500px-Nginx_logo.svg.png
+    keywords:
+    - ingress
+    - nginx
+    kubeVersion: '>=1.21.0-0'
+    maintainers:
+    - name: cpanato
+    - name: Gacko
+    - name: puerco
+    - name: rikatz
+    - name: strongjz
+    - name: tao12345666333
+    name: ingress-nginx
+    sources:
+    - https://github.com/kubernetes/ingress-nginx
+    urls:
+    - https://github.com/AndiDog/ingress-nginx/releases/download/helm-chart-4.12.0-beta.0/ingress-nginx-4.12.0-beta.0.tgz
+    version: 4.12.0-beta.0
+generated: "2024-12-03T12:03:14.13161393Z"
